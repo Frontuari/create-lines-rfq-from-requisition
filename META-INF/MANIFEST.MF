@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CreateRfqfromrequisition
+Bundle-SymbolicName: net.frontuari.createlinesrfqfromrequisition;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: net.frontuari.createlinesrfqfromrequisition
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="7.1.0",
+ org.adempiere.plugin.utils;bundle-version="7.1.0",
+ org.adempiere.ui.zk;bundle-version="7.1.0",
+ org.adempiere.ui;bundle-version="7.1.0",
+ zk;bundle-version="8.6.0",
+ zul;bundle-version="8.6.0"
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
+Bundle-Vendor: Frontuari, C.A
+Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/FTUCreateRfqFromFactory.xml
+Export-Package: net.frontuari.factory,
+ net.frontuari.webui.apps.form
