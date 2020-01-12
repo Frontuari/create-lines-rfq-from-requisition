@@ -273,6 +273,7 @@ public class WCreateRfqFromRequisitionUI extends CreateFrom implements EventList
 						//m_rfqLine.setPriceActual(rLine.getPriceActual());
 						m_rfqLine.setAD_Org_ID(rLine.getAD_Org_ID());
 						//m_rfqLine.setQty(rLine.getQty());
+						m_rfqLine.setLine(rLine.getLine());
 						m_rfqLine.saveEx();
 						
 						//create quantity
